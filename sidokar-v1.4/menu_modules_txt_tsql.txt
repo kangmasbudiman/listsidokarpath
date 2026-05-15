@@ -1,0 +1,20 @@
+### Langkah ini akan membuat Menu baru di SIDOKAR
+=================================================
+
+LANGKAH 1 - JALANKAN SCRIPT berikut pada database "sidokar" anda : 
+### awal script 
+INSERT INTO `modules` (`modules_category`, `modules_title`, `modules_description`, `modules_link`, `modules_is_display`, `modules_parent`, `modules_position`, `modules_icon`, `modules_order_number`, `modules_record_status`) 
+VALUES (1, 'Kalkulator Mutu', '', '#', '1', 0, 'left', 'ti-medall-alt', '1', 'A');
+### akhir script
+
+LANGKAH 2 - Buka tabel modules nya, dan dapati module_id dari script no. 1  ( modules_title = Kalkulator Mutu ) => lihat record terakhir
+
+LANGKAH 3 - Edit script pada langkah 3 ini dengan me-replace '<ganti dengan nilai module id>'  dengan angka module id yang sudah didapat dari langkah 2 
+
+INSERT INTO `modules` (`modules_category`, `modules_title`, `modules_description`, `modules_link`, `modules_is_display`, `modules_parent`, `modules_position`, `modules_icon`, `modules_order_number`, `modules_record_status`) 
+VALUES (1, 'Kalkulaltor Mutu Unit', '', '../../kamutu', '1', <ganti dengan nilai module id>, 'left', 'ti-medall-alt', '1', 'A');
+
+LANGKAH 4 - Copas dan jalankan pada SQL script Langkah no. 3 yang sudah di edit tsb ke dalam database SIDOKAR anda.
+
+
+
