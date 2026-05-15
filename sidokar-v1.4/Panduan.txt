@@ -1,0 +1,8 @@
+Panduan Update :
+1. Copy  satu folder "kamutu" yang ada di folder "htdocs/sidokar" ke dalam folder "sidokar" Anda 
+   Contoh C:/htdocs/sidokar/kamutu
+2. Copy file "login.php" ke folder "sidokar atau menyesuaikan yg ada di server"
+3. Copy file "dashboard.php" ke folder "application/dashboard"
+4. copy file "top-header.php" ke folder "application/includes"
+6. Import file SQL "newtable_database.sql" ke database sidokar Anda
+7. Baca dan ikuti langkah berikut pada file menu_modules_txt_tsql.txt
